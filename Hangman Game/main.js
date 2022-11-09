@@ -108,9 +108,3 @@ function endGame() {
   document.body.appendChild(div);
 }
 
-function cong() {
-  const div = document.createElement("div");
-  div.appendChild(document.createTextNode(`Congratulations`));
-  div.className = "popup";
-  document.body.appendChild(div);
-}
